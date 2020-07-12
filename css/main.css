@@ -1,0 +1,530 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Geral ******
+**************************/
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  color: #000
+}
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px
+}
+
+.navbar-toggle {
+  margin-top: 12px
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle, 
+.navbar-toggle:focus {
+  border:1px solid #fff;
+  outline: none;
+}
+
+
+/*************************
+*******Header CSS******
+**************************/
+
+.header-top {
+  display: block;
+  overflow: hidden;
+  padding: 25px;
+}
+
+.main-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.main-nav 
+.container {
+  width: 100%
+}
+
+.social-icons a {
+  font-size: 18px;
+  color: #fff;
+  padding-left:20px;  
+}
+
+.social-icons .fa-facebook:hover {
+  color: #3B5997
+}
+
+.social-icons .fa-twitter:hover {
+  color:#29C5F6
+}
+
+.social-icons .fa-google-plus:hover {
+  color:#D13D2F
+}
+
+.social-icons .fa-youtube:hover{
+  color: #ec5538
+}
+
+.navbar-brand {
+  background-color: #004582;
+  height: 90px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 297px;
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: 2px;
+}
+
+.navbar-right {
+  background-color: #004582;
+  padding:0 95px 0 0;
+  opacity: .9
+}
+
+.navbar-right li a {
+  padding: 35px 21px;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+}
+
+.navbar-right li a:hover, 
+.navbar-right li a:focus,  
+.navbar-right .active a {
+  background-color: #fff;
+  color: #16728f
+}
+
+
+.fixed-menu {
+  background-color: #004582;
+  position: fixed;
+  top: 0;
+}
+
+.fixed-menu .navbar-right {
+  padding: 0;
+}
+
+
+.fixed-menu .navbar-right li a {
+  font-size: 18px;
+  padding: 20px 25px;
+  text-shadow:inherit;
+}
+
+.fixed-menu .navbar-brand {
+  height: 60px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+  width: 125px;
+}
+
+.fixed-menu .navbar-brand img {
+  height:60px;
+  top: 0;
+}
+
+.fixed-menu .header-top {
+  display: none;
+}
+
+
+
+/*************************
+*******Home CSS******
+**************************/
+
+#home {
+  position: relative;
+  overflow: hidden;
+}
+
+#main-slider img {
+  width: 100%
+}
+
+#main-slider 
+.carousel-caption {
+  background: none repeat scroll 0 0 #000000;
+  bottom: 14%;
+  float: left;
+  left: 0;
+  opacity: 0.8;
+  padding:10px 60px 35px;
+  right: inherit;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+
+#main-slider 
+.carousel-caption h2 {  
+  font-size: 38px;
+ 
+}
+
+#main-slider 
+.carousel-caption h4 {
+  font-size: 24px;
+}
+
+#main-slider 
+.carousel-caption a {
+  font-size: 22px;
+  color: #2da1c5
+}
+
+#main-slider 
+.carousel-caption a:hover {
+  color: #2588a6
+}
+
+#main-slider 
+.carousel-caption a:hover i {
+  margin-left: 35px
+}
+
+#main-slider 
+.carousel-caption a i {
+  margin-left: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-slider 
+.carousel-indicators li {
+  background-color:#004582;
+  border: 1px solid #004582;
+}
+
+#main-slider 
+.carousel-indicators li.active {
+  background-color:#fff;
+  border: 1px solid #fff;
+}
+
+ /*************************
+*******beneficios CSS******
+**************************/
+#beneficios {
+  background-color: #004582;
+  background-image: url("../images/beneficios-bg.jpg");
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#beneficios h2 {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.single-beneficios {
+  margin-bottom: 70px;
+}
+
+.single-beneficios h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+
+.single-beneficios h5 {
+  font-size: 18px;
+  font-weight: 100;
+  display: block;
+}
+
+#beneficios-carousel {
+  position: relative;
+}
+
+.even-control-left, 
+.even-control-right {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  top: 0;
+}
+
+.even-control-left {
+  right: 3%
+} 
+
+.even-control-right {
+  right: 0;
+}
+
+/*************************
+*******sobre CSS**********
+**************************/
+
+#sobre {
+  background-color: #199bd7;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+  color: #fff;
+}
+
+.sobre-content {
+  width: 50%;
+  padding: 70px 70px 70px;
+}
+
+#sobre h2 {
+  margin-bottom: 23px;
+}
+
+.sobre-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+}
+
+#sobre .btn-primary {
+  background-color: #004582;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 28px;
+}
+
+#sobre .btn-primary:hover {
+  background-color: #126d55
+}
+
+/*************************
+******Sponsor CSS****
+**************************/
+
+#sponsor {
+  background-color: #1881a2;
+  background-image: url("../images/sponsor-bg.jpg");
+  background-position:50% 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  color: #fff;
+}
+
+.light {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#sponsor .col-sm-10 {
+  z-index: 10;
+}
+
+#sponsor h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+#sponsor .item ul {
+  font-size: 0;
+  padding: 0;
+}
+
+
+#sponsor .item ul li {
+  display: inline-block;
+  list-style: none;
+  width: 33.33%;
+  margin-bottom: 75px;
+}
+
+#sponsor .item ul li:last-child {
+  margin-right: 0
+}
+
+.sponsor-control-left, 
+.sponsor-control-right {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: absolute;
+  top: 20%;
+}
+
+.sponsor-control-left {
+  right: 12%
+}
+
+.sponsor-control-right {
+  right: 10%
+}
+
+
+/*************************
+******Map CSS****
+**************************/
+#map {
+  position: relative;
+}
+
+#gmap {
+  height:450px;  
+}
+
+
+/*************************
+******contato CSS****
+**************************/
+
+.contato-section {
+  background-position:60% 0;
+  background-size:contain;
+  background-repeat:no-repeat;  
+  position: relative;
+}
+
+.ear-piece {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#contato .container {
+  padding-top:47px;
+}
+
+#contato h3 {
+  text-transform:inherit;
+  color: #373737; 
+}
+
+#contato-section h3 {  
+  margin-bottom: 25px
+}
+
+#contato address {
+  font-size: 18px;  
+  color: #373737; 
+}
+
+.contato-text {
+  margin-bottom: 35px;
+  display: block;
+}
+
+
+#contato-section .form-control {
+  border-color: #ae750d;
+  box-shadow:none;
+  outline: 0 none;
+  border-radius: 0;
+  color: #797979;
+  font-size: 18px;
+}
+
+#contato-section .form-control:focus {
+  border-color: #ae750d;
+}
+
+#contato-section input {  
+  height: 44px;
+}
+
+#contato-section textarea {
+  height: 90px;
+  resize:none;
+}
+
+#contato-section .btn-primary {
+  background-color: #373737;
+  color: #f7ab24;
+  border: none;
+  font-size: 24px;
+  padding: 6px 42px;
+  margin-bottom: 110px;
+  margin-top: 10px
+}
+
+#contato-section .btn-primary:hover {
+  background-color: #212020;
+  color: #fff
+}
+
+
+
+/*************************
+******Footer CSS****
+**************************/
+
+#footer {
+  background-color: #fff;
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+#footer a {
+  color:#004582
+}
+
+#footer a:hover {
+  color:#f7ab24
+}
+
+
